@@ -9,6 +9,11 @@ body {
     padding: 0 20px;
   }
 
+  h1{
+    font-size: large;
+    color: purple
+  }
+
   h1 {
     font-size: 40px;
     color: #ff6600;
@@ -19,3 +24,24 @@ body {
     margin: 30px auto;
     letter-spacing: 6px;
   }
+
+  img {
+    border-radius: 35%;
+    margin:20px auto;
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    height: 250px;
+    box-shadow:  5px 5px 10px rgba(218, 96, 96, 0.5);
+}
+
+
+
+.tow-colums {
+    display: flex;
+    gap: 20px;
+}
+
+.tow-colums > div {
+    flex: 1;
+}
