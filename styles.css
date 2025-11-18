@@ -35,7 +35,24 @@ body {
     box-shadow:  5px 5px 10px rgba(218, 96, 96, 0.5);
 }
 
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #c2b1b1;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  margin-bottom: 20px;
+}
 
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+}
 
 .tow-colums {
     display: flex;
@@ -44,4 +61,22 @@ body {
 
 .tow-colums > div {
     flex: 1;
+}
+
+@media (max-width: 600px) {
+  bpdy {
+    font: size 18px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1025px) {
+  body {
+    font-size: 25px;
+  }
 }
