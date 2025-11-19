@@ -54,12 +54,12 @@ nav ul {
   gap: 30px;
 }
 
-.tow-colums {
+.two-column {
   display: flex;
   gap: 20px;
 }
 
-.tow-colums > div {
+.two-column > div {
   flex: 1;
 }
 
