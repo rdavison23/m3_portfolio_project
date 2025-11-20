@@ -54,14 +54,14 @@ nav ul {
   gap: 30px;
 }
 
-.two-column {
+/* .two-column {
   display: flex;
   gap: 20px;
 }
 
 .two-column > div {
   flex: 1;
-}
+} */
 
 @media (max-width: 600px) {
   body {
