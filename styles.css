@@ -25,6 +25,12 @@ h1 {
   letter-spacing: 6px;
 }
 
+h2 {
+  font-size: 26px;
+  color: rgb(241, 172, 126);
+  margin-bottom: 20px;
+}
+
 img {
   border-radius: 35%;
   margin: 20px auto;
@@ -72,6 +78,12 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 display: grid;
 grid-template-columns: 1fr;
 gap: 15px;
+}
+
+#leaveMessage form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
 }
 
 @media (max-width: 600px) {
