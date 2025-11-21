@@ -1,38 +1,38 @@
 body {
-    background-color: rgb(93, 73, 93);
-    color: rgb(231, 219, 211);
-    font-size: 25px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
+  background-color: rgb(93, 73, 93);
+  color: rgb(231, 219, 211);
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
-  h1{
-    font-size: large;
-    color: purple
-  }
+h1 {
+  font-size: large;
+  color: purple;
+}
 
-  h1 {
-    font-size: 40px;
-    color: #ff6600;
-    width: 400px;
-    font-weight: 400;
-    text-align: center;
-    text-decoration: underline;
-    margin: 30px auto;
-    letter-spacing: 6px;
-  }
+h1 {
+  font-size: 40px;
+  color: #ff6600;
+  width: 400px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: underline;
+  margin: 30px auto;
+  letter-spacing: 6px;
+}
 
-  img {
-    border-radius: 35%;
-    margin:20px auto;
-    display: block;
-    margin: 20px auto;
-    width: 250px;
-    height: 250px;
-    box-shadow:  5px 5px 10px rgba(218, 96, 96, 0.5);
+img {
+  border-radius: 35%;
+  margin: 20px auto;
+  display: block;
+  margin: 20px auto;
+  width: 250px;
+  height: 250px;
+  box-shadow: 5px 5px 10px rgba(218, 96, 96, 0.5);
 }
 
 nav {
@@ -54,17 +54,17 @@ nav ul {
   gap: 30px;
 }
 
-.tow-colums {
-    display: flex;
-    gap: 20px;
+.two-column {
+  display: flex;
+  gap: 20px;
 }
 
-.tow-colums > div {
-    flex: 1;
+.two-column > div {
+  flex: 1;
 }
 
 @media (max-width: 600px) {
-  bpdy {
+  body {
     font: size 18px;
   }
 }
