@@ -147,8 +147,20 @@ ul {
   border-top: 4px solid #ff6600;
 }
 
+#siteFooter {
+  font-size: 15px;   
+  text-align: center;  
+  color: #666;        
+}
+
+
 @media (max-width: 600px) {
-  body {
+  body {#siteFooter {
+    font-size: 0.8rem;   /* smaller than normal text */
+    text-align: center;  /* optional: center the text */
+    color: #666;         /* optional: lighter color */
+  }
+  
     font-size: 18px;
   }
 }
